@@ -1,0 +1,27 @@
+{
+  "name": "ass_cha_18",
+  "version": "1.0.0",
+  "description": "NoSQL Challenge: Social Network API\r <h2> User Story</h2>\r <p>AS A social media startup<br/>\r I WANT an API for my social network that uses a NoSQL database<br/>\r SO THAT my website can handle large amounts of unstructured data</p>\r <h2>Acceptance Criteria</h2>\r <p>GIVEN a social network API<br/>\r WHEN I enter the command to invoke the application<br/>\r THEN my server is started and the Mongoose models are synced to the MongoDB database<br/>\r WHEN I open API GET routes in Insomnia for users and thoughts<br/>\r THEN the data for each of these routes is displayed in a formatted JSON<br/>\r WHEN I test API POST, PUT, and DELETE routes in Insomnia<br/>\r THEN I am able to successfully create, update, and delete users and thoughts in my database<br/>\r WHEN I test API POST and DELETE routes in Insomnia<br/>\r THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list</p>\r <h2>Mock-Up</h2>\r <p>The following animations show examples of the application's API routes being tested in Insomnia.<br/>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tesfumfa/ass_cha_18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tesfumfa/ass_cha_18/issues"
+  },
+  "homepage": "https://github.com/tesfumfa/ass_cha_18#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.3"
+  }
+}
