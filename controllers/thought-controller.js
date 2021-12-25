@@ -121,4 +121,11 @@ const thoughtController = {
   },
 };
 
-module.exports = thoughtController;
+module.exports = thoughtController; 
+
+
+
+
+
+
+
